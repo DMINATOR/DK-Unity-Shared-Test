@@ -14,22 +14,22 @@ public class SettingsConstants
 
     public static void Load()
     {
-        SettingsController.AddSetting(new SettingValue()
+        SettingsController.Instance.AddSetting(new SettingValue()
         {
-            Name = Name.MusicVolume,
-            type = typeof(float),
-            MinValue = 0.0f,
-            DefaultValue = 0.5f,
-            MaxValue = 1.0f
+            Name = Enum.GetName(typeof(SettingsConstants.Name), Name.MusicVolume) ,
+            Type = SettingValueType.Float,
+            MinValue = "0.0f",
+            DefaultValue = "0.5f",
+            MaxValue = "1.0f"
         });
 
-        SettingsController.AddSetting(new SettingValue()
+        SettingsController.Instance.AddSetting(new SettingValue()
         {
-            Name = Name.SoundVolume,
-            type = typeof(float),
-            MinValue = 0.0f,
-            DefaultValue = 0.7f,
-            MaxValue = 1.0f
+            Name = Enum.GetName(typeof(SettingsConstants.Name), Name.SoundVolume),
+            Type = SettingValueType.Float,
+            MinValue = "0.0f",
+            DefaultValue = "0.7f",
+            MaxValue = "1.0f"
         });
     }
 }
