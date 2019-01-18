@@ -1,1 +1,1 @@
-{"Settings":[{"Name":"Music Volume","Type":2,"Value":"","DefaultValue":"0.5f","MinValue":"0.0f","MaxValue":"1.0f"},{"Name":"Sound Volume","Type":2,"Value":"","DefaultValue":"0.7f","MinValue":"0.0f","MaxValue":"1.0f"}]}
+{"Settings":[{"Name":"Music Volume","Type":2,"Value":"","DefaultValue":"0.5f","MinValue":"0.0f","MaxValue":"1.0f"},{"Name":"Sound Volume","Type":2,"Value":"","DefaultValue":"0.7f","MinValue":"0.0f","MaxValue":"1.0f"},{"Name":"Setting Text","Type":0,"Value":"","DefaultValue":"Text loaded from setting","MinValue":"","MaxValue":""}]}
